@@ -1,28 +1,27 @@
 <?php
-/**
- *	Elgg Shortcodes integration
- *	Author : Mohammed Aqeel | Team Webgalli
- *	Team Webgalli | Elgg developers and consultants
- *	Mail : info@webgalli.com
- *	Web	: http://webgalli.com
- *	Skype : 'team.webgalli'
- *	@package Collections of Shortcodes for Elgg
- *	Licence : GNU2
- *	Copyright : Team Webgalli 2011-2015
- */ 
-elgg_register_event_handler('init', 'system', 'galliShortcodes_init');
+/*
+Your Embed Code by ECO13 (YEC:13)					a fork off Shortcodes 1.8.X
+CMS:			Elgg 1.8.X					Elgg 1.8.X
+author:			Axel Vanderhaeghen				Mohammed Aqeel
+organisation:		ECO13						Team Webgalli
+url:			http://r-evolutie.net				http://webgalli.com
+licence:		GNU General Public License, version 3		GNU General Public License, version 2
+copyright: 		2014 © ECO13					2011-2015 © Team Webgalli
+*/
 
-function galliShortcodes_init() {
+elgg_register_event_handler('init', 'system', 'yec13_init');
+
+function yec13_init() {
 	$root = dirname(__FILE__);
-	// Short code processing library (from Wordpress)
+	// Shortcode processing library (from Wordpress)
 	elgg_register_library('elgg:shortcodes', "$root/lib/shortcodes.php");	
 	elgg_load_library('elgg:shortcodes');
-	// Short code collections 
-	elgg_register_library('elgg:galliShortcodes', "$root/lib/galliShortcodes.php");	
-	elgg_load_library('elgg:galliShortcodes');
+	// Your Embed Code for Elgg
+	elgg_register_library('elgg:yec13', "$root/lib/yec13.php");	
+	elgg_load_library('elgg:yec13');
 	// Extend JS and CSS for shortcode support
-	elgg_extend_view('js/elgg', 'galliShortcodes/js');
-	elgg_extend_view('css/elgg', 'galliShortcodes/css');
+	elgg_extend_view('js/elgg', 'yec13/js');
+	elgg_extend_view('css/elgg', 'yec13/css');
 	// Process the shortcodes
 	$views = array('output/longtext','river/item');
 	foreach($views as $view){
@@ -56,6 +55,6 @@ function shortcodes_longtext_menu($hook, $type, $items, $vars) {
  * @param array $page URL segments
  */
 function shortcodes_page_handler($page) {
-	echo elgg_view('galliShortcodes/list');
+	echo elgg_view('yec13/list');
 	exit;
 }
