@@ -1,20 +1,18 @@
 <?php
-/**
- *	Elgg Shortcodes integration
- *	Author : Mohammed Aqeel | Team Webgalli
- *	Team Webgalli | Elgg developers and consultants
- *	Mail : info [at] webgalli [dot] com
- *	Web	: http://webgalli.com
- *	Skype : 'team.webgalli'
- *	@package Collections of Shortcodes for Elgg
- *	Licence : GNU2
- *	Copyright : Team Webgalli 2011-2015
- */  
+/*
+Your Embed Code by ECO13 (YEC:13)					a fork off Shortcodes 1.8.X
+CMS:			Elgg 1.8.X					Elgg 1.8.X
+author:			Axel Vanderhaeghen				Mohammed Aqeel
+organisation:		ECO13						Team Webgalli
+url:			http://r-evolutie.net				http://webgalli.com
+licence:		GNU General Public License, version 3		GNU General Public License, version 2
+copyright: 		2014 © ECO13					2011-2015 © Team Webgalli
+*/
+ 
 	$english = array(
-		'shortcodes:help' => "Available Shortcodes",
-		'shortcodes:link' => "Shortcodes",
+		'shortcodes:help' => "Your Embed Code",
+		'shortcodes:link' => "embed code",
 	);
 					
 	add_translation("en",$english);
-
 ?>
