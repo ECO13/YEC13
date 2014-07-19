@@ -1,26 +1,28 @@
 *YEC:13 for Elgg 1.8 is a fork off the Wordpress like shortcodes system
-[Shortcodes 1.8.X for Elgg][1] by Mohammed Aqeel @ [Team Webgalli][2].*
+[Shortcodes 1.8.X for Elgg](https://community.elgg.org/plugins/1047972/1.1/shortcodes-18x)
+by Mohammed Aqeel @ [Team Webgalli](http://www.webgalli.com/).*
 
-# background
+## background
 
 With 'Shortcodes for Elgg' Team Webgalli introduced WordPress's
-[Shortcode API][3] in Elgg. While there are many other and easier
-ways to embed different kind of media, the shortcode API has
-seamingly unlimited features. 
+[Shortcode API](http://codex.wordpress.org/Shortcode_API) in Elgg.
+While there are many other and easier ways to embed different kind of
+media, the shortcode API has seamingly unlimited features. 
 
--------------------------------------------------------------------
+
 > "Sky is the limit with this plugin."
-> - [Team Webgalli][4]
--------------------------------------------------------------------
+> - [Team Webgalli](http://www.webgalli.com/blog/shortcodes-for-elgg/)
+
 
 From that perspective, the plugin seems underrated. It is my guess
 that user friendliness is an important issue. On my site, the plugin
 would be rather useless without a user manual.
 
 So, I added features, I replaced the content of the lightbox and a
-[user manual][5] is in the making. 
+[user manual](http://r-evolutie.net/pages/view/394/yec13-user-manual)
+is in the making. 
 
-# very beta!
+## very beta!
 
 I hope the update will be useful, but pls do note that I'm more a
 designer than a developer and more a DIY'er than a designer, that this
@@ -104,7 +106,7 @@ by WordPress.com.
 
 ## embed charts
 
-- only [deprecated Google image charts][6] are available
+- only [deprecated Google image charts](https://developers.google.com/chart/image/) are available
 
 ## embed iframes
 
@@ -127,13 +129,5 @@ someone misses it.
 
 # documentation
 
-info, manual, examples:
-http://r-evolutie.net/pages/view/393/your-embed-code-yec13-for-elgg
+[info, manual, examples](http://r-evolutie.net/pages/view/393/your-embed-code-yec13-for-elgg)
 
----
-[1]: https://community.elgg.org/plugins/1047972/1.1/shortcodes-18x				"plugin: Shortcodes 1.8.X for Elgg 1.8"
-[2]: http://www.webgalli.com/									"Team Webgalli website"
-[3]: http://codex.wordpress.org/Shortcode_API							"Shortcode API @ WordPress Codex"
-[4]: http://www.webgalli.com/blog/shortcodes-for-elgg/						"Shortcodes for Elgg @ Team Webgalli blog"
-[5]: http://r-evolutie.net/pages/view/394/yec13-user-manual					"YEC:13 user manual"
-[6]: https://developers.google.com/chart/image/							"Google image charts are depricated since 2012.04.20"
